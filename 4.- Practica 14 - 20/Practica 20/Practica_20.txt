@@ -1,0 +1,42 @@
+//librerias
+
+inicio
+principal
+	entero op
+	flotante n1, n2, res
+	
+	imprimir("Suma y resta")
+	imprimir("1.- Suma")
+	imprimir("2.- Resta")
+	imprimir("Selecciona la opcion deseada")
+	leer(op)
+	
+	si(op=1)
+	inicio
+		imprimir("A seleccionado sumar")
+		imprimir("Ingrese el primer numero)
+		leer(n1)
+		imprimir("Ingrese el segundo numero")
+		leer(n2)
+		res = n1 + n2
+		imprimir("El resultado de tu suma es", res)
+	fin
+	
+	sino(op=2)
+	inicio
+		imprimir("a seleccionado restar")
+		imprimir("Ingrese el primer numero")
+		leer(n1)
+		imprimir("Ingrese el segundo numero")
+		leer(n2)
+		res = n1 - n2
+		imprimir("El resultado de tu resta es", res)
+	fin
+
+	sino
+	inicio
+		imprimir("Seleccione una opcion correcta")
+	fin
+	
+retorna 0
+fin

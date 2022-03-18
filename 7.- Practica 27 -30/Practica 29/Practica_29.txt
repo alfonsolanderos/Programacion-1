@@ -1,0 +1,17 @@
+//librerias
+
+principal
+inicio
+	entero i, j;
+	
+	imprimir("Ingrese el numero de la tabla a presentar -> ")
+	leer(i)
+
+	desde(j=1;j<=10;j++)
+	  inicio
+		imprimir(i, j, i * j)
+	  fin
+
+	retorna 0
+
+fin

@@ -1,0 +1,21 @@
+//librerias
+
+inicio
+principal
+	entero base, poten, res=1, cont=0
+	
+	imprimir "Ingrese la base"
+	leer(base)
+	imprimir "Ingrese la potencia"	
+	leer(poten)
+	
+	mientras cont<poten
+		inicio
+		res = res * base
+		cont + 1
+		fin
+		
+	imprimir res
+
+retorna 0
+fin

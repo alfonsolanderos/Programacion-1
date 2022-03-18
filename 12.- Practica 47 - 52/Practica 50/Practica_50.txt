@@ -1,0 +1,25 @@
+//librerias
+
+prom
+inicio
+	flotante res, n1, cont = 0;
+	entero i;
+	
+	para(i=0;i<=4;i++)
+	inicio
+		imprimir("Ingresa la calificacion -> ", i+1);
+		leer n1;
+		cont = cont + n1;
+	fin
+	
+	res = cont/i;
+	imprimir("El promedio es -> ", res);
+	
+fin
+
+principal
+inicio
+	entero r;
+	imprimir("Promedio de 5 calificaciones");
+	r = prom();
+fin

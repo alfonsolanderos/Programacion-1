@@ -1,0 +1,25 @@
+//librerias
+
+Principal
+Inicio entero op, a, b, res;
+imprimir("Elige la opcion deseada")
+leer op
+segun sea (op)
+inicio
+	caso 1 imprimir("Dame dos valores")
+	leer (a, b)
+	res = a + b
+	imprimir("El resultado de tu suma es -> ", res)
+	interrumpir
+
+	caso 2: imprimir("Dame dos valores")
+	leer (a, b)
+	res = a - b
+	imprimir("El resultado de tu resta es ->", res)
+	interrumpir
+
+	otro: imprimir("Intentelo nuevamente")
+
+fin
+regresa 0
+fin

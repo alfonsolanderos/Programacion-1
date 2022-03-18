@@ -1,0 +1,25 @@
+//librerias
+
+fact(entero n1)
+inicio
+	entero fact = 1, i = 1;
+	imprimir("Ingrese el numero a calcular el factorial -> ");
+	leer n1;
+	
+	hacer
+	inicio
+		fact = fact * i;
+		incr i;
+	mientras(i<=n1)
+	fin
+	
+	retorna fact;
+fin
+
+principal
+inicio
+	entero num1;
+	imprimir("Tu resultado del calculo de factorial es -> ", fact(num1));
+
+	retorna 0;
+fin

@@ -1,0 +1,22 @@
+//librerias
+
+principal
+inicio
+	entero datos[10], i;
+	
+	desde(i=0;i<=9;i++)
+	inicio
+		imprimir("Dame el elemento -> ", i+1;
+		leer(datos[i]);
+	fin
+	
+	desde(i=9;i>=0;i--)
+	inicio
+		imprimir("El  elemento  es", i,datos[i]);
+	fin
+	
+	retorna 0;
+	
+fin
+
+	

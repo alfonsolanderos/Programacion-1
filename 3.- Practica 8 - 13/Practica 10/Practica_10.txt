@@ -1,0 +1,11 @@
+1.-Inicio
+2.-Declarar entero num
+3.-Imprimir "Determinar si el número ingresado es positivo o negativo"
+4.-Imprimir "Ingresa el número a determinar"
+5.-Escanear num
+6.-Si num mayor que cero
+7.-Imprimir "El número ingresado es positivo
+8.-Sino num menor que cero
+9.-Imprimir "El número ingresado es negativo"
+10.-Imprimir "Hasta pronto!"
+11.- Fin

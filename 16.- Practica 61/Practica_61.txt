@@ -1,0 +1,29 @@
+//librerias
+
+principal
+inicio
+    entero i;
+    flotante productos[10];
+
+    para(i=0;i<10;i++)
+    inicio
+        imprimir("Producto no%i", i+1);
+        imprimir("Ingrese el precio del producto a realizar el descuento -> ");
+        leer("%f", &productos[i]);
+    fin
+    calculo(productos);
+fin
+
+entero calculo(flotante calc)
+inicio
+    entero j;
+    flotante descuento, total;
+
+    imprimir("Precio con descuento aplicado");
+    para(j=0;j<10;j++)
+    inicio
+        descuento = calc[j] * 0.30;
+        total = calc[j] - descuento;
+        imprimir("%f con descuento es %f", calc[j], total);
+    fin
+fin

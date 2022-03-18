@@ -1,0 +1,26 @@
+//librerias
+
+principal
+inicio
+	entero pares =0, impares = 1, num, i, cont;
+	
+	imprimir("Ingrese la cantidad a determinar")
+	leer(cont)
+	
+	desde(i=1;i<=cont;i++)
+	  inicio
+		si(num%2==0)
+			pares += num
+		si no
+			impares *= num
+		
+		imprimir(Ingrese el numero a determinar -> )
+		leer(num)
+	  fin
+
+	imprimir("La suma de los pares es ->", pares)
+	imprimir("El producto de los impares es -> ", impares)
+
+	retorna 0
+
+fin

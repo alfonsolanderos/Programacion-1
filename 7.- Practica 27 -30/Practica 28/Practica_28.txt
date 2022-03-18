@@ -1,0 +1,23 @@
+//librerias
+
+principal
+inicio
+	entero n, i;
+	flotante prom, calf, x =0;
+
+	imprimir("Ingrese ek total de materias")
+	leer(n)
+
+	desde(i=1<=n;i++)
+	  inicio
+		imprimir("Ingrese el numero -> ")
+		leer(calf)
+		x = x + calf
+	  fin
+
+	prom = x / n
+	imprimir("Tu promedio es de -> , prom)
+
+	retorna 0
+
+fin

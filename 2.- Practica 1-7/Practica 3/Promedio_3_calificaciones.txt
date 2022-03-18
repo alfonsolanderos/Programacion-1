@@ -1,0 +1,12 @@
+1.- Inicio
+2.- Variables c1, c2, c3 y promedio
+3.- Imprimir "Promedio de 3 calificaciones"
+4.- Imprimir "Ingresa la primer calificación"
+5.- Leer n1
+6.- Imprimir "Ingresa la segunda calificación"
+7.- Leer n2
+8.- Imprimir "Ingresa la tercer calificación"
+9.- Leer n3
+10.- Promedio = (c1+c2+c3)/3
+11.- Tu promedio es de, Imprimir "promedio"
+12.- Fin

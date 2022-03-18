@@ -1,0 +1,13 @@
+Expresiones
+
+1.- Inicio
+2.- Variables a=0, b=5 y c=12
+3.- Utilizar la formula a=b+c/2*10
+4.- Imprimir a
+5.- Utilizar formula b=a*a%3
+6.- Imprimir b
+7.- Utilizar formula c=20%3/2*5
+8.- Imprimir c
+9.- Utilizar formula b=b+c*a+(20-a)
+10.- Imprimir b
+11.- Fin

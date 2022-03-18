@@ -1,0 +1,30 @@
+//librerias
+
+principal
+inicio
+
+	entero x[3][3]={7,15,3,4,9,11,6,2,5}, y[3]={0,0,0}, i, j, m=1;
+	para(i=0; i<3;i++)
+	inicio
+        	m = 1;
+			para(j=0;j<3;j++)
+			inicio
+				m = m*x[i][j];
+				
+			fin
+	fin
+	
+	para(i=0;i<3;i++)
+	inicio
+		imprimir("%i", y[i]);
+		y[i]=m+i;
+	fin
+	
+	para(i=0;i<3;i++)
+	inicio
+		imprimir("%i %i", i+1, y[i]);
+	fin
+	
+	retornar 0;
+
+fin

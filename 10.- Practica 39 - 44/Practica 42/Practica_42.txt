@@ -1,0 +1,28 @@
+//librerias
+
+principal
+inicio
+	entero i, j, aux =0, A1[3][3];
+	
+	para(i=0;i<3;i++)
+	inicio
+		para(j=0;j<3;j++)
+		inicio
+			imprimir("Dame el elemento de la posicion [%i][%i] de la matriz A1 -> ", i, j);
+		fin
+	fin
+	
+	para(i=0;i<3;i++)
+	inicio
+		entero sumcol = 0;
+		aux += 1;
+		para(j=0;j<3;j++)
+		inicio
+			sumcol += A1[i][j]
+		fin
+		
+		imprimir("Suma de la columna %i es -> %i", aux, sumcol);
+	fin
+	
+	retorna 0;
+fin

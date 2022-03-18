@@ -1,0 +1,21 @@
+//librerias
+
+principal
+inicio
+	entero A[10]={10, 53, 64, 72, 53, 31, 75, 80, 94, 81}, i;
+	float prom=0, suma = 0;
+	
+	desde(i=0;i<=9;i++)
+	inicio
+		imprimir("Su numero ingresado   es  ", i+1, A[i]);
+	fin
+	
+	desde(i=0;i<=9;i++)
+	inicio
+		suma += A[i];
+		prom = suma/10;
+		imprimir("Su promedio es ->  ", prom);
+	fin
+	
+	retorna 0;
+fin

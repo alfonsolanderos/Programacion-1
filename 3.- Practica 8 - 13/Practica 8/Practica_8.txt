@@ -1,0 +1,9 @@
+1.- Inicio
+2.- Definir entero ed
+3.- Imprimir "Dame tu edad"
+4.- Escanear ed
+5.- Si ed es menor a 18
+6.- Imprimir "Eres menor de edad"
+7.- Imprimir "No puedes votar"
+8.- Imprimir "Que tengas un buen día"
+9.- Fin

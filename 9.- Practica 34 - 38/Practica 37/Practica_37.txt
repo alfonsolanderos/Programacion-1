@@ -1,0 +1,24 @@
+//librerias
+
+principal
+inicio
+	entero A[15]={1,54,32,95,48,10,12,42,92,84,52,82,13,84,58}, mayor, i;
+
+	desde(i=0;i<=14;i++)
+	inicio
+		imprimir("El  elemento es  ", i+1, A[i]);
+	fin
+	mayor = A[i]
+	
+	desde(i=0;i<=14;i++)
+	inicio
+		si(A[i]>mayor)
+		inicio
+			mayor = A[i];
+		fin
+	fin
+	
+	imprimir("El numero mayor es ->  ", mayor);
+	retorna 0;
+	
+fin

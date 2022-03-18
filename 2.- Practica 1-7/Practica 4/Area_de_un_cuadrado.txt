@@ -1,0 +1,8 @@
+1.- Inicio
+2.- Variables area, lado
+3.- Imprimir "Calcular el área de un cuadrado"
+4.- Imprimir "Ingresa la medida de un lado del cuadrado"
+5.- Leer lado
+6.- area = lado * lado
+7.- Imprimir "El área resultante es de, Imprimir area
+9.- Fin

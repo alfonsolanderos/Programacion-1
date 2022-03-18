@@ -1,0 +1,13 @@
+//librerias
+
+inicio
+principal
+	entero num = 1
+	hacer
+	  inicio
+		imprimir(num)
+		inc num
+	  fin
+	mientras(num<=10)
+fin
+	

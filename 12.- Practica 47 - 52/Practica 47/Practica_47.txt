@@ -1,0 +1,35 @@
+//librerias
+
+color
+inicio
+	imprimir("Rojo");
+	
+	retorna 0;
+fin
+
+color1
+inicio
+	imprimir("Morado");
+	color();
+	imprimir("Verde");
+
+	retorna 0;
+fin
+
+color2
+inicio
+	color1();
+	imprimir("Azul");
+	
+	retorna 0;
+fin
+
+principal
+inicio
+	color();
+	color1();
+	color2();
+	
+	retorna 0;
+fin
+	

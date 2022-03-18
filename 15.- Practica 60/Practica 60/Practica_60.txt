@@ -1,0 +1,39 @@
+//librerias
+#definir TAM 100
+
+entero ordenar(entero n, entero x);
+
+entero principal
+inicio
+    entero i, n, x[TAM];
+    imprimir("¿cuántos números serán introducidos");
+    leer(n);
+    
+    para(i=0;i<n;++i)
+        inicio
+            imprimir("i=%d x=", i+a1;
+            leer(x[i]);
+fin
+    
+    ordenar(n,x);
+
+    imprimir("Lista de números ordenada");
+    
+    para(i=0;i<n;++i)
+        imprimir("i=%d x=%d\n", i+1, x[i]);
+    
+    retorna 0;
+
+    entero ordenar(entero n, entero x[]);
+    inicio
+        entero i, elem, temp;
+        para(elem=0;elem<n-1;++elem)
+            para(i=elem+1;i<n-1;++i)
+                si(x[i]<x[elem])
+		inicio
+			temp=x[elem];
+			x[elem]=x[i];
+			x[i]=temp;
+		fin
+	retorna 0;
+   fin

@@ -1,0 +1,10 @@
+1.- Inicio
+2.- Definir Pi
+3.- Variables radio, area, diametro
+4.- Imprimir "Calcular el área de un circulo"
+5.- Imprimir "Ingrese la medida del radio"
+6.- Leer radio
+7.- diametro = radio * radio
+8.- area = Pi * diametro
+9.- Imprimir "El area del circulo es de", Imprimir area
+10.- Fin

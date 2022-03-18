@@ -1,0 +1,39 @@
+//librerias
+
+principal
+inicio
+	entero A1[3][3], A2[3][3], A3[3][3], i, j, mult;
+
+	printf("Multiplicacion de 2 matrices\n\n");
+	
+	para(i=0;i<3;i++)
+	inicio
+		para(j=0;j<3;j++)
+		inicio
+			imprimir("Dame el valor de la primer matriz en la posicion %i,%i -> ", i, j);
+			leer(A1[i][j]);
+		fin
+	fin
+
+	para(i=0;i<3;i++)
+	inicio
+		para(j=0;j<3;j++)
+		inicio
+			imprimir("Dame el valor de la segunda matriz en la posicion %i,%i -> ", i, j);
+			leer(A2[i][j]);
+		fin
+	fin
+	
+	para(i=0;i<3;i++)
+	inicio
+		para(j=0;j<3;j++)
+		inicio
+			A3[i][j] = A1[i][j] * A2[i][j];
+            		imprimir("%i * %i = %i\n", A1[i][j], A2[i][j], A3[i][j]);
+		fin
+	fin
+	
+	retorna 0;
+
+fin
+			

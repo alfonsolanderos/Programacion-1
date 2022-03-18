@@ -1,0 +1,19 @@
+//librerias
+
+principal
+inicio
+	flotante A[5]={3.2,4.6,1.7,8.3,5.2}, B[5]={4.9,7.1,9.5,2.7,6.8}, C[5];
+	entero i;
+	
+	desde(i=0;i<=4;i++)
+	inicio
+		C[i] = A[i] + B[i];
+	fin
+	
+	desde(i=0;i<=4;i++)
+	inicio
+		imprimir("  +  =  ", A[i], B[i], C[i]);
+	fin
+	
+	retorna 0;
+fin

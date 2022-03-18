@@ -1,0 +1,10 @@
+1.- Inicio
+2.- Variables area, base, altura
+3.- Imprimir "Calcular el área de un rectángulo"
+4.- Imprimir "Ingrese la medida de la base"
+5.- Leer base
+6.- Imprimir "Ingrese la medida de la altura"
+7.- Leer altura
+8.- area = base * altura
+9.- Imprimir "el resultado del área total es de", Imprimir area
+10.- Fin

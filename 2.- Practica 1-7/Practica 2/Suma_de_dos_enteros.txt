@@ -1,0 +1,10 @@
+1.- Inicio
+2.- Variables n1, n2 y suma
+3.- Imprimir "Suma de 2 enteros"
+4.- Imprimir "Dame un número"
+5.- Leer n1
+6.- Imprimir "Dame otro número"
+7.- Leer n2
+8.- Suma = n1 + n2
+9.- El resultado de tu suma es, imprimir suma
+10.- Fin

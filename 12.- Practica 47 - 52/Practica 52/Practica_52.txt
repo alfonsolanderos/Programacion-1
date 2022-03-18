@@ -1,0 +1,87 @@
+//libreria
+
+entero op, base, poten, select;
+flotante num, res;
+
+raiz
+inicio
+	imprimir("A seleccionado raiz cuadrada");
+	imprimir("Ingrese el numero a calcular la raiz cuadrada -> ");
+	leer num;
+	res = sqrt(num);
+	imprimir("El numero resultante es -> ", res);
+	
+	retorna principal;
+fin
+
+potencia
+inicio
+	imprimir("A seleccionado potencia");
+	imprimir("Ingrese el numero a elevar -> ");
+	leer base;
+	imprimir("Ingrese la potencia -> ");
+	leer poten;
+	res = pow(base, poten);
+	imprimir("El potencia resultante es -> ", res);
+
+	retorna principal;
+fin
+
+coseno
+inicio
+	imprimir("A seleccionado coseno");
+	imprimir("Ingrese el numero a calcular el coseno -> ");
+	leer num;
+	res = cos(num);
+	imprimir("El numero resultante es -> ", res);
+
+	retorna principal;
+fin
+
+logaritmo
+inicio
+	imprimir("A seleccionado logaritmo natural");
+	imprimir("INgrese el numero a calcular el logaritmo natural -> ");
+	leer num;
+	res = log(num);
+	imprimir("El numero resultante es -> ", res);
+
+	retorna principal;
+fin
+
+principal
+inicio
+	imprimir("Menu");
+	imprimir("1.- Raiz cuadrada");
+	imprimir("2.- potencia");
+	imprimir("3.- Coseno");
+	imprimir("4.- logaritmo natural");
+	imprimir("5.- Salir");
+	imprimir("seleccionado la opcion deseada -> ");
+	leer op;
+
+	si(op==1)
+	inicio
+		select = raiz();
+	fin
+	si no(op==2)
+	inicio
+		select = potencia();
+	fin
+	si no(op==3)
+	inicio
+		select = coseno();
+	fin
+	sino(op==4)
+	inicio
+		select = logaritmo();
+	fin
+	sino
+	inicio
+		salir(0);
+	fin
+
+	retorna 0;
+fin
+	
+	

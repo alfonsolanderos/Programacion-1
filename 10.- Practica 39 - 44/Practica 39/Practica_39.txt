@@ -1,0 +1,26 @@
+//librerias
+
+principal
+inicio
+
+	entero matriz[4][4], i, j;
+
+	para(i=0;i<=3;i++)
+	inicio
+		para(j=0;j<=3;j++)
+		inicio
+			imprimir("Dame el elemento %i %i del arreglo bidimensional -> ", i, j);
+			leer(matriz[i][j]);
+		fin
+	fin
+
+	para(i=0;i<=3;i++)
+	inicio
+		para(j=0;j<=3;j++)
+		inicio
+			imprimir("El elemento %i, %i es %i", i, j, matriz[i][j])
+		fin
+	fin
+	
+	retorna 0;
+fin

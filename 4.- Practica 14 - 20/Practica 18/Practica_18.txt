@@ -1,0 +1,49 @@
+//librerias
+
+inicio
+principal
+	int op
+	flotante mts, cm, km
+
+	imprimir("Conversiones de distancias")
+	imprimir("1.- Convertir metros a centimetros")
+	imprimir("2.- Comvertir kilometros a metros")
+	imprimir("3.- Convertir centimetros a metros")
+	imprimir("4.- Convertir metros a kilometros")
+	imprimir("Seleccione la opcion deseada")
+	leer(op)
+
+	segun sea(op)
+		caso 1: imprimir("A seleccionado convertir metros a centimetros")
+		imprimir("Ingrese la cantidad a convertir en metros")
+		leer(mts)
+		cm = mts / 100
+		imprimir("La conversion en centimetros es" cm)
+			interrumpir
+
+		caso 2: imprimir("A seleccionado convertir kilometros a metros")
+		imprimir("Ingrese la cantidad a convertir en kilometros")
+		leer()
+		mts = km / 1000
+		imprimir("La conversion en metros es de", mts)
+			interrumpir
+
+		caso 3: imprimir("A seleccionado convertir centimetros a metros")
+		imprimir("Ingrese la cantidad a convertir en centimetros")
+		leer(cm)
+		mts = cm * 0.01
+		imprimir("La conversion en metros es de", mts)
+			interrumpir
+
+		caso 4: imprimir("A seleccionado convertir metros a kilometros")
+		imprimir("Ingrese la cantidad a convertir en metros")
+		leer(mts)
+		km = mts * 0.001
+		imprimir("La conversion a kilometros es de", km)
+			interrumpir
+
+		dafault: imprimir("Seleccione una opcion correcta")
+
+fin
+retorna 0
+fin

@@ -1,0 +1,49 @@
+//librerias
+
+inicio
+principal
+	entero op
+	flotante mx, dll, eur
+	imprimir("Menu conversiones de divisas")
+	imprimir("1.- Pesos a dolares")
+	imprimir("2.- Pesos a euros")
+	imprimir("3.- Dolar a pesos")
+	imprimir("4.- Euros a pesos")
+	imprimir("Seleccione la opcion deseada")
+	leer(op)
+
+	segun sea(op)
+	inicio
+	
+	caso 1: imprimir("A seleccionado convertir pesos a dolares")
+	imprimir("Ingrese la cantidad a convertir en pesos mx")
+	leer(mx)
+	dll = mx * 0.048
+	imprimir("Su cantidad convertida a dolares es",dll)
+		interrumpir
+
+	caso 2: imprimir("A seleccionado convertir pesos a euros")
+	imprimir("Ingrese la cantidad a convertir en pesos mx")
+	leer(mx)
+	eur= mx * 0.041
+	imprimir(""Su cantidad convertida a euros es", eur)
+		interrumpir
+	
+	caso 3: imprimir("A seleccionado convertir dolares a pesos")
+	imprimir("Ingrese la cantidad a convertir en dolares US")
+	leer(dll)
+	mx = dll * 20.72
+	imprimir("Su cantidad en pesos es de", mx)
+		interrumpir
+
+	caso 4: imprimir("A seleccionado converitr euros a pesos")
+	imprimir("Ingrese la cantidad a convertir en euros")
+	leer(eur)
+	mx = eur * 24.34
+	imprimir("Su cantidad convertida en pesos es de" mx)
+		interrumpir
+	
+	default: imprimir("Seleccione una opcion correcta")
+fin
+retorna 0
+fin	

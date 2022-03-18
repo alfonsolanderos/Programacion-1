@@ -1,0 +1,44 @@
+//librerias
+
+entero n1=0,n2=0;
+
+suma
+inicio
+	entero c=0;
+	imprimir("Dame 2 valores -> ");
+	leer n1, n2
+
+	c= n1+n2;
+
+	retorna c;
+fin
+
+resta
+inicio
+	imprimir("Dame 2 valores -> ");
+	leer n1, n2;
+
+	retorna n1-n2;
+fin
+
+principal
+inicio
+	entero r, op;
+	imprimir("1.- Suma");
+	imprimir("2.- Resta");
+	imprimir("Seleccione la opcion deseada -> ");
+	leer op;
+
+	si(op==1)
+	inicio
+		r = suma();
+		imprimir("El resultado de tu suma es -> ", r);
+	fin
+	
+	si no(op==2)
+	inicio
+		imprimir("El resultado de tu resra es -> ", resta());
+	fin
+
+	retorna 0;
+fin

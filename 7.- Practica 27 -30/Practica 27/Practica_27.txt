@@ -1,0 +1,13 @@
+//librerias
+
+principal
+inicio
+	entero num
+	
+	desde(num=1;num<=10;num++)
+	  inicio
+		imprimir(num*4)
+	  fin
+	
+	retorna 0;
+fin

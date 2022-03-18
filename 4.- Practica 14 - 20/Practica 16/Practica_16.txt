@@ -1,0 +1,59 @@
+//librerias
+//definir PI 3.1416
+
+inicio
+principal
+	entero op
+	flotante area, lado, base, altura, radio, diametro, basemenor, basemayor
+
+	imprimir("Calcular el area de la figura seleccionada")
+	imprimir("1.- Cuadrado")
+	imprimir("2.- Rectangulo")
+	imprimir("3.- Circulo")
+	imprimir("4.- Trapecio")
+	imprimir("Selecciona la opcion deseada")
+	leer(op)
+
+	segun sea(op)
+	inicio
+	
+	caso 1: imprimir("Calcular el area de un cuadrado")
+	imprimir("Ingresa la medida de un lado del cuadrado")
+	leer(lado)
+	area = lado * lado
+	imprimir("El area resultante es", area)
+		interrumpir
+
+	caso 2: imprimir("Calcular el area de un rectangulo")
+	imprimir("Ingrese la medida de la base -> ")
+	leer(base)
+	imprimir("Ingresa la medida de la altura -> ")
+	leer(altura)
+	area = base * altura
+	imprimir("El resultado del area total es de", area)
+		interrumpir
+
+	caso 3: imprimir("Calcular el area de un circulo")
+	imprimir("Ingrese la medida del radio ->")
+	leer(radio)
+	diametro = radio * radio
+	area = PI * diametro
+	imprimir("El area del circulo es de", area)
+		interrumpir
+	
+	caso 4: imprimir("Calcular el area de un trapecio")
+	imprimir("Ingresa la medida de la base mayor")
+	leer(basemayor)
+	imprimir("Ingrese la medida de la base menor")
+	leer(basemenor)
+	imprimir("Ingrese la medida de la altura")
+	leer(altura)
+	area = (basemenor + basemayor) / 2 * altura
+	imprimir("El area resultante es de", area)
+		interrumpir
+	
+	default: imprimir("Seleccione una opcion correcta")
+
+fin
+retorna 0
+fin

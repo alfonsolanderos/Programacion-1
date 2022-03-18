@@ -1,0 +1,16 @@
+//librerias
+
+inicio
+principal
+	entero num = 1, lim
+	imprimir"¿Hasta que numero deseas visualizar tu serie?"
+	leer (lim)
+	mientras num<=lim
+		inicio
+		imprimir num
+		num +1
+		fin
+
+sistema pausa
+retorna 0
+fin

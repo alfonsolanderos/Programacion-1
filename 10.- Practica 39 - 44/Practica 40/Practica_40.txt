@@ -1,0 +1,24 @@
+//librerias
+
+principal
+inicio
+	entero A[3][3], B1[3][3], C1[3][3], i, j;
+	
+	para(i=0;i<=2;i++)
+	inicio
+		para(j=0;j<=2;j++)
+		inicio
+			imprimir("Dame el elemento %i,%i del arreglo A1 -> ", i, j);
+			leer(A1[i][j]);
+			imprimir("Dame el elemento %i,%i del arreglo B1 -> ", i, j);
+			leer(B1[i][j]);
+		fin
+	fin
+	
+	para(i=0;i<=2;i++)
+	inicio
+		para(j=0;j<=2;j++)
+		inicio
+			C1[i][j]=A1[i][j]+B1[i][j];
+			imprimir("%i + %i = %i" A1[i][j], B1[i][j], C1[i][j]);
+fin

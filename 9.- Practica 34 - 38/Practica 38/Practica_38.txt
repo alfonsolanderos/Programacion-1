@@ -1,0 +1,18 @@
+//librerias
+
+principal
+inicio
+	entero A[10]={2,4,3,6,4,8,3,9,8,5}, B[10]={8,4,2,6,3,8,3,7,2,6}, C[10], i;
+	
+	desde(i=0;i<=9;i++)
+	inicio
+		C[i] = A[i] * B[i];
+	fin
+	
+	desde(i=0;i<=9;i++)
+	inicio
+		imprimir("  x  =  ", A[i], B[i], C[i]);
+	fin
+	
+	retorna 0;
+fin

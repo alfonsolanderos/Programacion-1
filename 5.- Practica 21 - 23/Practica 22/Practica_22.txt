@@ -1,0 +1,12 @@
+//librerias
+
+inicio
+principal
+	entero num = 105
+	mientras num>0
+		inicio
+		imprimir num
+		num - 2
+
+retornar 0
+fin

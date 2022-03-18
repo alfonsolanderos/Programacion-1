@@ -1,0 +1,35 @@
+//librerias
+
+principal
+inicio
+	entero A1[4][4], i, j, suma=0;
+
+	imprimir("Diagonal de una matriz 4x4");
+
+	para(i=0;i<4;i++)
+	inicio
+		para(j=0;j<4;j++)
+		inicio
+			imprimir("Dame los valores de la matriz en posicion %i,%i -> ", i, j);
+			leer(A1[i][j]);
+			si(i=j)
+			inicio
+				suma += A1[i][j];
+			fin
+		fin
+	fin
+	
+	para(i=0;i<4;i++)
+	inicio
+		para(j=0;j<4;j++)
+		inicio
+			imprimir(A1[i][j]);
+			imprimir("   ");
+		fin
+	fin
+
+	imprimir("Suma diagonal de matriz -> %i", suma);
+
+	retorna 0;
+
+fin

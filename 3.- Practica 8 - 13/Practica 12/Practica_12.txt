@@ -1,0 +1,16 @@
+1.-Inicio
+2.-Declarar entero n1, n2, n3
+3.-Imprimir"Solicitar 3 números e imprimir el mayor"
+4.-Imprimir"Ingrese el primer número"
+5.-Escanear n1
+6.-Imprimir"Ingrese el segundo número"
+7.-Escanear n2
+8.-Imprimir"Ingresar el tercer número"
+9.-Escanear n3
+10.-Si n1 mayor que n2 y n3
+11.-Imprimir"El número mayor es, n1"
+12.-Sino n2 mayor que n1 y n2
+13.-Imprimir"El número mayor es, n2"
+14.-Sino n3 mayor que n1 y n2
+15.-Imprimir"El número mayor es, n3"
+16.-Fin

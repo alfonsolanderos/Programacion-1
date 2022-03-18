@@ -1,0 +1,12 @@
+1.- Inicio
+2.- Variables area, basemenor, basemayor, altura
+3.- Imprimir "Calcular área de un trapecio"
+4.- Imprimir "Ingresa la medida de la base mayor"
+5.- Leer basemayor
+6.- Imprimir "Ingresa la medida de la base menor"
+7.- Leer basemenor
+8.- Imprimir "Ingresa la medida de la altura"
+9.- Leer altura
+10.- area = (basemayor + basemenor)/2 * altura
+11.- Imprimir "El áre resultante es de", Imprimir area
+12.- Fin

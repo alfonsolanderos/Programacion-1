@@ -1,0 +1,22 @@
+//librerias
+
+principal
+inicio
+	entero i=1, j=1
+	
+	mientras(1<=10)
+	  inicio
+		j = 1
+		imprimir("Tabla del ", i)
+		
+		mientras(j<=10)
+			imprimir("%i x %i = %i", i, j, i * j)
+			incr j
+		incr i
+	  fin
+
+	retorna 0
+
+fin
+
+	

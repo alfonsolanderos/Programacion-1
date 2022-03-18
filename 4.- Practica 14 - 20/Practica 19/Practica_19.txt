@@ -1,0 +1,57 @@
+//librerias
+
+inicio
+principal
+	entero op, base, poten
+	flotante num, res
+	
+	imprimir("Calculadora cientifica simple")
+	imprimir("1.- Potencia")
+	imprimir("2.- Raiz cuadrada")
+	imprimir("3.- Seno")
+	imprimir("4.- Coseno")
+	imprimir("5.- Logaritmo natural")
+	imprimir("Seleccione la opcion deseada")
+	leer(op)
+
+	segun sea(op)
+		caso 1: imprimir("A seleccionado potencia")
+		imprimir("Ingrese el numero a elevar")
+		leer(base)
+		imprimir("Ingrese la potencia")
+		leer(poten)
+		res = pow(base, poten)
+		imprimir("El numero resultante es", res)
+			interrummpir
+
+		caso 2: imprimir("A seleccionado raiz cuadrada")
+		imprimir("Ingrese el numero a cualcular la raiz cuadrada")
+		leer(num)
+		res = sqrt(num)
+		imprimir("El numero resultante es", res)
+			interrumpir		
+
+		caso 3: imprimir("A seleccionado seno")
+		imprimir("Ingrese el numero a calcular")
+		leer(num)
+		res = sin(num)
+		imprimir("El numero resultante es", res)
+			interrumpir
+
+		caso 4: imprimir("A seleccionado coseno")
+		imprimir("Ingrese el numero a calcular el coseno")
+		leer(num)
+		res = cos(num)
+		imprimir("El numero resultante es", res)
+			interrumpir
+		
+		caso 5: imprimir("A seleccionado logaritmo natural")
+		imprimir("Ingrese el numero a calcular el logaritmo natural")
+		leer(num)
+		res = log(num)
+		imprimir("El numero resultante es", res)
+			interrumpir
+
+fin
+retorna 0
+fin

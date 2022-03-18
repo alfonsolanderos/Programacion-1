@@ -1,0 +1,24 @@
+1.-Inicio
+2.-Declarar n1, n2, n3.
+3.-Imprimir"Solicitar 3 numeros y ordenarlos de manera ascendente"
+4.-Imprimir"Ingrese el primer número"
+5.-Escanear n1
+6.-Imprimir"Ingrese el segundo número"
+7.-Escanear n2
+8.-Imprimir"Ingrese el tercer número"
+9.-Escanear n3
+10.-Si n1 menor que n2 y n2 menor que n3 y n1 menor que n3
+11.-Imprimir"El orden es el siguiente, n1,n2,n3"
+12.-Si no n1 menor que n3 y n3 menor que n2 y n1 menor que n2
+13.-Imprimir"EL orden es el siguiente, n1,n3,n2"
+14.-Si no n2 menor que n1 y n1 menor que n3 y n2 menor que n3
+15.-Imprimir"El orden es el siguiente,n2,n1,n3"
+16.-Si no n2 menor que n3 y n3 menor que n1 y n2 menor que n1
+17.-Imprimir"El orden es el siguiente, n2,n3,n1"
+18.-Si no n3 menor que n1 y n1 menor que n2 y n3 menor que n2
+19.-Imprimir"El orden es el siguiente,n3,n1,n2"
+20.-Si no n3 menor que n2 y n2 menor que n1 y n3 menor que n1
+21.-Imprimir"El orden es el siguiente,n3,n2,n1"
+22.-De otra manera
+23.-Imprimir"Ingrese un valor válido"
+24.-Fin

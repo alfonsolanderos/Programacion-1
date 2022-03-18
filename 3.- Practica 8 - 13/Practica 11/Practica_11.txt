@@ -1,0 +1,11 @@
+1.-Inicio
+2.-Declarar entero num
+3.-Imprimir "Determinar si el numero ingresado es par o impar"
+4.-Imprimir"Ingrese el numero a determinar"
+5.-Escanear num
+6.-Si residuo de numero dos es igual a cero
+7.-Imprimir"El número es par"
+8.-Si no
+9.-Imprimir"El número es impar"
+10.-Imprimir"Hasta luego"
+11.-Fin
